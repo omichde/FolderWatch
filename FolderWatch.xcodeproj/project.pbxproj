@@ -11,6 +11,8 @@
 		DE79F60E2437299B006ED135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F60D2437299B006ED135 /* ViewController.swift */; };
 		DE79F610243729A6006ED135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE79F60F243729A6006ED135 /* Assets.xcassets */; };
 		DE79F613243729A6006ED135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE79F611243729A6006ED135 /* Main.storyboard */; };
+		DE79F61C24372BB0006ED135 /* PreferenceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F61B24372BB0006ED135 /* PreferenceStorage.swift */; };
+		DE79F61E243730D6006ED135 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79F61D243730D6006ED135 /* Runner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		DE79F612243729A6006ED135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE79F614243729A6006ED135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE79F615243729A6006ED135 /* FolderWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolderWatch.entitlements; sourceTree = "<group>"; };
+		DE79F61B24372BB0006ED135 /* PreferenceStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceStorage.swift; sourceTree = "<group>"; };
+		DE79F61D243730D6006ED135 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				DE79F60B2437299B006ED135 /* AppDelegate.swift */,
 				DE79F60D2437299B006ED135 /* ViewController.swift */,
+				DE79F61D243730D6006ED135 /* Runner.swift */,
+				DE79F61B24372BB0006ED135 /* PreferenceStorage.swift */,
 				DE79F60F243729A6006ED135 /* Assets.xcassets */,
 				DE79F611243729A6006ED135 /* Main.storyboard */,
 				DE79F614243729A6006ED135 /* Info.plist */,
@@ -134,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE79F60E2437299B006ED135 /* ViewController.swift in Sources */,
+				DE79F61E243730D6006ED135 /* Runner.swift in Sources */,
+				DE79F61C24372BB0006ED135 /* PreferenceStorage.swift in Sources */,
 				DE79F60C2437299B006ED135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 				CODE_SIGN_ENTITLEMENTS = FolderWatch/FolderWatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6ZU459JA6J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FolderWatch/Info.plist;
@@ -292,6 +301,7 @@
 				CODE_SIGN_ENTITLEMENTS = FolderWatch/FolderWatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6ZU459JA6J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FolderWatch/Info.plist;
