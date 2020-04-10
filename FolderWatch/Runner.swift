@@ -57,7 +57,13 @@ class Runner {
 	
 	private func check() {
 		guard let source = source, let dest = dest else { return }
-		
+
+		if source == dest {
+			delegate?.inform("source and destination must be different")
+			stop()
+			return
+		}
+
 		let fm = FileManager.default
 		var list = [String]()
 		do {
@@ -66,6 +72,7 @@ class Runner {
 		catch {
 			delegate?.inform(error.localizedDescription)
 			stop()
+			return
 		}
 
 		var moveList = [String]()
